@@ -1,0 +1,77 @@
+# IDE, OS, Python, and test caches
+.idea/
+.DS_Store
+**/.DS_Store
+venv/
+.venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and credentials
+configs/bq_credentials.yaml
+.env
+.env.*
+!.env.example
+
+# Packaging artifacts
+LoyaltyScoreProject.egg-info/
+*.egg-info/
+build/
+dist/
+
+# Generated query/data directories
+2.construct_score/combined_data.csv
+2.construct_score/feature_csv_output/*
+2.construct_score/output_query/*
+**/output/
+**/outputs/
+**/results/
+**/artifacts/
+
+# Generated analysis files that use JSON rather than a tabular extension
+5.exploratory_analysis/dqd_analysis/dqd_results.json
+5.exploratory_analysis/dqd_analysis/modified_dqd_results.json
+
+# Notebook caches (not notebooks themselves)
+**/.ipynb_checkpoints/
+
+# Generated tabular and serialized data
+*.csv
+!1.loyalty_concepts_to_omop/xref_LoyaltyCode_paths.csv
+!1.loyalty_concepts_to_omop/LoyaltyConceptDimensionOMOPUnique_commasep.csv
+!6.phecode/Phecode_mapX_filtered.csv
+!6.phecode/phecodeX_info.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.arrow
+*.jsonl
+*.ndjson
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated figures, reports, logs, and archives
+/7.figures_for_paper/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.html
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.tgz

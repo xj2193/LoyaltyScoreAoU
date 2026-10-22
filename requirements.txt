@@ -1,0 +1,17 @@
+google-cloud-bigquery
+google-cloud-bigquery-storage
+pandas
+numpy
+scikit-learn
+jinja2
+pyyaml
+matplotlib
+seaborn
+scipy
+python-dateutil
+pyarrow
+plotly
+kaleido
+openpyxl
+jupyterlab
+ipykernel
